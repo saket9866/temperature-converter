@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter
+
+    </title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <div class="container">
+
+ <label for="temp" >Enter temperature type</label> <br>
+ <div class="cnt">
+    <ul>
+        <li>This will treat farehnite as lower case 'f' </li>
+        <li>This will treat celsuis as lower case 'c'</li>
+        <li>This will treat kelvin as lower case 'k'</li>
+    </ul>
+ </div>
+ 
+ <input type="text" name="input" id="input" placeholder="Enter Temperature type for input">
+ <input style="margin: 10px;" type="text" name="output" id="output" placeholder="Enter temperature type for output"> <br>
+ <label for="ivalue" class="abc">Enter value</label>
+ <input type="text" name="ivalue" id="ivalue" placeholder="Enter value">
+
+ <p id="fvalue" >answer will  occur here</p>
+
+ <button id="convert" onclick="converttemperature()">Convert!</button>
+<button id="clear" onclick="reset()">Reset</button>
+
+
+
+
+
+
+
+
+
+
+</div>
+ <script src="temp.js"></script>
+</body>
+</html>
